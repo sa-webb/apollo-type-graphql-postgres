@@ -1,0 +1,25 @@
+{
+   "name": "proto-db",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "ts-node": "latest",
+      "@types/node": "latest",
+      "typescript": "3.7.5"
+   },
+   "dependencies": {
+      "apollo-server": "^2.12.0",
+      "pg": "^7.3.0",
+      "reflect-metadata": "^0.1.10",
+      "type-graphql": "^0.17.6",
+      "typedi": "^0.8.0",
+      "typeorm": "0.2.22",
+      "typeorm-typedi-extensions": "^0.2.3"
+   },
+   "resolutions": {
+      "type-graphql/graphql": "^14.0.2"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts"
+   }
+}
