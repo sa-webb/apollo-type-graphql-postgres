@@ -2,6 +2,7 @@
    "name": "relations-example",
    "version": "0.0.1",
    "description": "Awesome project developed with TypeORM.",
+   "repository": "https://github.com/sa-webb/apollo-type-graphql-postgres",
    "devDependencies": {
       "ts-node": "latest",
       "@types/node": "latest",
