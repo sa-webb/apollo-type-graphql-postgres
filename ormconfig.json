@@ -2,9 +2,9 @@
    "type": "postgres",
    "host": "localhost",
    "port": 5432,
-   "username": "austin",
-   "password": "postgres",
-   "database": "type_graphql",
+   "username": "",
+   "password": "",
+   "database": "",
    "synchronize": true,
    "logging": false,
    "entities": [
