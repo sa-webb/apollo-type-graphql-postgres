@@ -10,8 +10,8 @@ export async function seedDatabase() {
   const userRepository = getRepository(User);
 
   const defaultUser = userRepository.create({
-    email: "austin@voltam.io",
-    nickname: "AWebb",
+    email: "user@example.io",
+    nickname: "user1",
     password: "testtesting",
   });
   await userRepository.save(defaultUser);
